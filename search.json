@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "core.html#create-directories",
+    "href": "core.html#create-directories",
+    "title": "Using a Decision Tree to Compress an Image",
+    "section": "Create directories",
+    "text": "Create directories\n\ndirectories = [\"output_images\", \"output_gifs\"]\n\nfor directory in directories:\n    pathlib.Path(directory).mkdir(parents=True, exist_ok=True)"
+  },
+  {
+    "objectID": "core.html#convert-to-black-and-white",
+    "href": "core.html#convert-to-black-and-white",
+    "title": "Using a Decision Tree to Compress an Image",
+    "section": "Convert to black and white",
+    "text": "Convert to black and white\n\nbw_image = convert_to_bw_image(data)\nbw_image.save(\"output_images/vangogh-bw.jpg\")"
+  },
+  {
+    "objectID": "core.html#cleanup",
+    "href": "core.html#cleanup",
+    "title": "Using a Decision Tree to Compress an Image",
+    "section": "Cleanup",
+    "text": "Cleanup"
+  }
+]
